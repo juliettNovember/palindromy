@@ -1,12 +1,8 @@
-#words = [
-#    "kajak",
-#    "potop"
-#]
-def palindrome(words):
-    return words == words [::-1]
-
-words = ["kajak"]
-result = palindrome(words)
-
-result = True 
-print(result)
+words_items = [
+    "kajak",
+    "potop"
+]
+def palindrome(items):  
+    return items == items [::-1]
+for item in words_items:
+    print(palindrome(item))
