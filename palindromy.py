@@ -14,7 +14,6 @@ words_items = [
 
 
 for item in words_items:
-    #item = item.replace(" ", "")
     item = item.translate(str.maketrans('', '', string.whitespace))
     item = item.translate(str.maketrans('', '', string.punctuation))
     item = item.lower()
